@@ -1,4 +1,5 @@
 #!/bin/bash -e
+PATH=/etc:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 BUS_ID=`/usr/sbin/usbip list -p -l | grep -i "#usbid=${USB_IDVENDOR}:${USB_IDPRODUCT}#" | cut '-d#' -f1`
 [[ -z "$BUS_ID" ]] || /usr/sbin/usbip bind --$BUS_ID
 sleep 1
