@@ -1,7 +1,3 @@
-# Systemd unit for automounting usb devices over usbip
-
-This is shamelessly ripped from [larsks sysetemd-usb-gadget][https://github.com/larsks/systemd-usb-gadget]
-
 ## Installation
 
 To install the systemd unit, run `make install` in the source
