@@ -12,6 +12,7 @@ These files **must** contain the following configuration keys:
 
 - `USB_IDVENDOR`  -- Vendor ID. 
 - `USB_IDPRODUCT` -- Product ID.
+  or
 - `USB_ID`        -- Usb ID 
 
 For example, to share a device with vendor:product 03f0:8607, create a file
